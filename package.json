@@ -1,0 +1,7 @@
+{
+	"name": "SNACC Pack",
+	"author": "DUCC",
+	"version": "6.0.9",
+	"license": "HONK Open Source",
+	"main": "package.js"
+}
