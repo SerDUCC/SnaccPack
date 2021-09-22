@@ -1,5 +1,5 @@
 /*
-HONK
+HONKA!
 */
  
 "use strict";
