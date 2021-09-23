@@ -43,8 +43,8 @@ class SnaccPack {
 			DatabaseServer.tables.traders.ragfair.assort.barter_scheme["snaccPack"] = JsonUtil.deserialize(VFS.readFile(`${modPath}/${barter_path}`));
 
 
-			DatabaseServer.tables.templates.items["honk"]._props.Grids[0]._props.cellsH = conf.snaccPack["internalHeight"];
-			DatabaseServer.tables.templates.items["honk"]._props.Grids[0]._props.cellsV = conf.snaccPack["internalWidth"];
+			DatabaseServer.tables.templates.items["snaccPack"]._props.Grids[0]._props.cellsH = conf.snaccPack["internalHeight"];
+			DatabaseServer.tables.templates.items["snaccPack"]._props.Grids[0]._props.cellsV = conf.snaccPack["internalWidth"];
 		}
 	}
 }
