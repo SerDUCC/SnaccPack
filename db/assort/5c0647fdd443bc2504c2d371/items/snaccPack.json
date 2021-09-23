@@ -1,6 +1,6 @@
 {
-    "_id": "honk",
-    "_tpl": "honk",
+    "_id": "snaccPack",
+    "_tpl": "snaccPack",
     "parentId": "hideout",
     "slotId": "hideout",
     "upd": {
