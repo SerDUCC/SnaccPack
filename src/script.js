@@ -31,7 +31,7 @@ class SnaccPack {
 			const locale_path = "db/locales/en/templates/snaccPack.json";
 			DatabaseServer.tables.locales.global.en.templates["snaccPack"] = JsonUtil.deserialize(VFS.readFile(`${modPath}/${locale_path}`));
 
-			// Add item to traders
+			// Add item to ragfair
 			const ragfair_path = "db/assort/ragfair/items/snaccPack.json";
 			const ragfair_item = JsonUtil.deserialize(VFS.readFile(`${modPath}/${ragfair_path}`));
 			DatabaseServer.tables.traders.ragfair.assort.items.push(ragfair_item);
@@ -42,6 +42,16 @@ class SnaccPack {
 			const barter_path = "db/assort/ragfair/barter_scheme/snaccPack.json";
 			DatabaseServer.tables.traders.ragfair.assort.barter_scheme["snaccPack"] = JsonUtil.deserialize(VFS.readFile(`${modPath}/${barter_path}`));
 
+			// Add item to mr. Jaeger
+			const trader_path = "db/assort/5c0647fdd443bc2504c2d371/items/snaccPack.json";
+			const trader_item = JsonUtil.deserialize(VFS.readFile(`${modPath}/${trader_path}`));
+			DatabaseServer.tables.traders["5c0647fdd443bc2504c2d371"].assort.items.push(trader_item);
+
+			const trader_loyal_path = "db/assort/5c0647fdd443bc2504c2d371/loyal_level_items/snaccPack.json";
+			DatabaseServer.tables.traders["5c0647fdd443bc2504c2d371"].assort.loyal_level_items["snaccPack"] = JsonUtil.deserialize(VFS.readFile(`${modPath}/${trader_loyal_path}`));
+
+			const trader_barter_path = "db/assort/5c0647fdd443bc2504c2d371/barter_scheme/snaccPack.json";
+			DatabaseServer.tables.traders["5c0647fdd443bc2504c2d371"].assort.barter_scheme["snaccPack"] = JsonUtil.deserialize(VFS.readFile(`${modPath}/${trader_barter_path}`));
 
 			DatabaseServer.tables.templates.items["snaccPack"]._props.Grids[0]._props.cellsH = conf.snaccPack["internalHeight"];
 			DatabaseServer.tables.templates.items["snaccPack"]._props.Grids[0]._props.cellsV = conf.snaccPack["internalWidth"];
