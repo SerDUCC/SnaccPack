@@ -1,7 +1,7 @@
 {
 	"manifest": [
 	{
-		"key": "SNACCPack/item_container_lopouch.bundle",
+		"key": "SNACCPack/SNACCPack.bundle",
 		"dependencyKeys": [
 		"cubemaps",
 		"shaders",
