@@ -1,10 +1,10 @@
 {
-    "_id": "honk",
-    "_name": "item_container_honk",
+    "_id": "snaccPack",
+    "_name": "item_container_snaccPack",
     "_parent": "5795f317245977243854e041",
     "_type": "Item",
     "_props": {
-        "Name": "SNACC Pack™ ",
+        "Name": "SNACC Pack™",
         "ShortName": "SNACC",
         "Description": "A repurposed pouch, small enough to fit in a secure container and perfect for storing all the SNACCs you could possibly want in the harsh wilds of Tarkov.",
         "Weight": 0.9,
@@ -14,10 +14,10 @@
         "StackMaxSize": 1,
         "Rarity": "Superrare",
         "SpawnChance": 1,
-        "CreditsPrice": 6969,
+        "CreditsPrice": 120000,
         "ItemSound": "container_pouch",
         "Prefab": {
-            "path": "SNACCPack/SNACCPack.bundle",
+            "path": "snaccPack/snaccPack.bundle",
             "rcid": ""
         },
         "UsePrefab": {
