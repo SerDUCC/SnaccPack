@@ -17,7 +17,7 @@
         "CreditsPrice": 6969,
         "ItemSound": "container_pouch",
         "Prefab": {
-            "path": "assets/content/items/containers/item_container_lopouch/item_container_lopouch.bundle",
+            "path": "SNACCPack/SNACCPack.bundle",
             "rcid": ""
         },
         "UsePrefab": {

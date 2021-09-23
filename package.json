@@ -1,7 +1,7 @@
 {
 	"name": "snaccPack",
-	"author": "DUCC; Deadly",
-	"version": "1.0",
+	"author": "DUCC, Deadly",
+	"version": "1.6.0",
 	"license": "GNU GPLv3",
 	"main": "package.js"
 }
